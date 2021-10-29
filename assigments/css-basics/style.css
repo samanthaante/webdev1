@@ -1,0 +1,65 @@
+body {
+margin: 0;
+font-family: 'Roboto', sans-serif;
+background-color: rgb(189, 153, 189);
+
+}
+header {
+    background-color: lightcoral;
+    text-align: center;
+
+    nav a {
+    background-color: orange;
+    margin: 1rem;
+
+    }
+}
+main {
+    max-width: 50rem;
+    margin: 0 auto;
+    background-color: blue; 
+    padding: 0 .5rem;
+}
+
+section {
+    background-color: indigo;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-left: .5rem solid white;
+}
+
+nav a {
+    margin: 1rem;
+    color: turquoise;
+}
+nav a :hover { 
+color: yellow
+}
+
+section h3 {
+background-color: lavenderblush;
+color: black
+margin: 0;
+padding: 1rem;
+
+}
+section p {
+background-color: lightcyan;
+color: lightpink;
+margin: 0;
+padding: 1rem;
+
+
+}
+img { 
+margin: 0 auto;
+display: block;
+max-width: 100%;
+}
+
+footer {
+    background-color:gray;
+    text-align: center;
+    color: limegreen;
+    padding: 2rem;
+}
