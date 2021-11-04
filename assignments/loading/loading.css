@@ -2,7 +2,7 @@
     height: 5px;
     position: relative;
     background: #000000;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .meter span {
@@ -12,12 +12,13 @@
 
 .loading {
     background-color: #10df33;
-    animation: loadinganimation 3s ease-in-out;
-    animation-fill-mode:both; 
+    animation: loadinganimation 20s;
+    animation-fill-mode:forwards; 
 }
 
 @keyframes loadinganimation {
   0% { width: 0; }
   100% { width: 100%; }
 }
+
 
