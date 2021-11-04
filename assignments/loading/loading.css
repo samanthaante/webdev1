@@ -1,0 +1,23 @@
+.meter { 
+    height: 5px;
+    position: relative;
+    background: #000000;
+    overflow: hidden;
+}
+
+.meter span {
+    display: block;
+    height: 100%;
+}
+
+.loading {
+    background-color: #10df33;
+    animation: loadinganimation 3s ease-in-out;
+    animation-fill-mode:both; 
+}
+
+@keyframes loadinganimation {
+  0% { width: 0; }
+  100% { width: 100%; }
+}
+
